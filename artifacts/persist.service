@@ -1,0 +1,9 @@
+[Unit]
+Description=Suspicious persistence service
+
+[Service]
+Type=simple
+ExecStart=/home/kali/persist.sh
+
+[Install]
+WantedBy=multi-user.target
